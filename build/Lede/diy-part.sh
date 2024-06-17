@@ -10,8 +10,6 @@ git clone https://github.com/douglarek/luci-app-homeproxy.git package/luci-app-h
 #添加bypass插件
 git clone -b bypass https://github.com/shidahuilang/openwrt-package.git package/luci-app-bypass
 
-#添加passwall2插件
-git clone https://github.com/xiaorouji/openwrt-passwall2.git
 
 #添加CPU使用率、编译作者、固件下载地址
 sed -i '/<tr><td width="33%"><%:CPU usage/a <tr><td width="33%"><%:Compiler author%></td><td><a target="_blank" href="https://github.com/shaufo/">【SHAUFO】https://github.com/shaufo/</a></td></tr>' package/lean/autocore/files/x86/index.htm
